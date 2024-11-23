@@ -109,3 +109,18 @@
 23:38:34.500738 db@janitor removing table-18
 23:38:34.500890 db@janitor removing table-24
 23:38:34.501058 db@open done T·22.647458ms
+=============== Nov 22, 2024 (+07) ===============
+00:14:07.473195 db@close closing
+00:14:07.473480 db@close done T·284.542µs
+=============== Nov 22, 2024 (+07) ===============
+20:22:14.507369 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:22:14.508014 version@stat F·[1 1] S·427B[162B 265B] Sc·[0.25 0.00]
+20:22:14.508027 db@open opening
+20:22:14.508067 journal@recovery F·1
+20:22:14.509114 journal@recovery recovering @29
+20:22:14.515893 memdb@flush created L0@31 N·948 S·8KiB "loc..seq,v34":"n:\xc1..ong,v35"
+20:22:14.516470 version@stat F·[2 1] S·9KiB[8KiB 265B] Sc·[0.50 0.00]
+20:22:14.535969 db@janitor F·5 G·0
+20:22:14.535986 db@open done T·27.95425ms
+22:50:21.373110 db@close closing
+22:50:21.374185 db@close done T·1.075625ms
